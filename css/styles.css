@@ -153,7 +153,8 @@ svg {
 }
 .mail:hover,
 .mail:focus,
-.mail:hover .icon {
+.mail:hover .icon,
+.mail:focus .icon {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
@@ -307,6 +308,9 @@ h1 {
 .work-type:focus {
   color: var(--accent-color);
 }
+.work-type:focus {
+  color: var(--accent-color);
+}
 .work-type:visited {
   color: var(--secondary-text-color);
 }
@@ -369,7 +373,8 @@ h1 {
   margin: 12px;
   fill: var(--icon-color);
 }
-.social-network:hover .icon {
+.social-network:hover .icon,
+.social-network:focus .icon {
   fill: var(--primary-background-color);
 }
 .social-network:hover,
@@ -502,9 +507,6 @@ address {
 .link-element .icon {
   fill: var(--primary-background-color);
 }
-.link-element:hover .icon {
-  fill: var(--primary-background-color);
-}
 .second-footer-section {
   margin-right: 94px;
 }
@@ -541,5 +543,5 @@ address {
 .mail:visited:hover,
 .mail:visited:focus {
   color: var(--accent-color);
-} */ 
+} */
 /* Footer */
