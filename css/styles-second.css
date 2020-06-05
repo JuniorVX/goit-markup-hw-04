@@ -104,6 +104,9 @@ header {
 }
 .nav .link.current-page {
   color: var(--accent-color);
+  border-bottom: 4px solid var(--accent-color);
+  border-radius: 2px;
+  padding-bottom: 28px;
 }
 .link {
   text-decoration: none;
@@ -122,9 +125,6 @@ header {
 .link:hover,
 .link:focus {
   color: var(--accent-color);
-  border-bottom: 4px solid var(--accent-color);
-  border-radius: 2px;
-  padding-bottom: 28px;
 }
 .link:visited {
   color: var(--primary-text-color);
