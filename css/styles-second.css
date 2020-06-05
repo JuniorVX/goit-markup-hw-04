@@ -320,7 +320,7 @@ address {
   color: var(--secondary-text-color);
   margin-bottom: 21px;
 }
-.social-link-footer {
+.social-link-footer { 
   display: flex;
   flex-direction: row;
   width: 206px;
