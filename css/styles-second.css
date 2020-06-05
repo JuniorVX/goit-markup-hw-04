@@ -173,6 +173,9 @@ svg {
 /* Navigation end */
 
 /* Projects */
+.portfolio {
+  margin-bottom: 94px;
+}
 .button-list {
   list-style: none;
   display: flex;
